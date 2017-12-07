@@ -1,0 +1,26 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "electron main.js",
+    "start": "./node_modules/.bin/electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "asar": "^0.14.0",
+    "electron": "^1.7.9",
+    "electron-packager": "^10.1.0",
+    "electron-prebuilt": "^1.4.13"
+  },
+  "build": {
+    "appId": "com.imaxue.app",
+    "productName":"helloWorld",
+    "win": {
+      "icon": "icon"
+    }
+  }
+}
